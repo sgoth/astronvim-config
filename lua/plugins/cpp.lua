@@ -12,11 +12,11 @@ return {
           offsetEncoding = "utf-8",
         },
         cmd = { "clangd", "--background-index", "--header-insertion=never" },
-        on_attach = function()
-          -- Enabling inlay hints feature
-          require("clangd_extensions.inlay_hints").setup_autocmd()
-          require("clangd_extensions.inlay_hints").set_inlay_hints()
-        end
+        -- on_attach = function()
+        --   -- Enabling inlay hints feature
+        --   require("clangd_extensions.inlay_hints").setup_autocmd()
+        --   require("clangd_extensions.inlay_hints").set_inlay_hints()
+        -- end
       },
       })
       if is_linux_arm then opts.servers = require("astrocore").list_insert_unique(opts.servers, { "clangd" }) end
