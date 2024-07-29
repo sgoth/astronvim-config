@@ -62,7 +62,7 @@ return {
         -- tables with just a `desc` key will be registered with which-key if it's installed
         -- this is useful for naming menus
         ["<Leader>b"] = { desc = "Buffers" },
-        ["<leader>mL"] = { "<cmd>colorscheme astrolight<cr>", desc = "Light colorscheme" },
+        ["<leader>mL"] = { "<cmd>colorscheme astrojupiter<cr>", desc = "Light colorscheme" },
         ["<leader>mD"] = { "<cmd>colorscheme astrodark<cr>", desc = "Dark colorscheme" },
         ["<leader>m"] = { desc = "Misc" },
 
