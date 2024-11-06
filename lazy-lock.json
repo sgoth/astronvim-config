@@ -60,5 +60,6 @@
   "toggleterm.nvim": { "branch": "main", "commit": "48be57eaba817f038d61bbf64d2c597f578c0827" },
   "trouble.nvim": { "branch": "main", "commit": "6efc446226679fda0547c0fd6a7892fd5f5b15d8" },
   "vim-illuminate": { "branch": "master", "commit": "5eeb7951fc630682c322e88a9bbdae5c224ff0aa" },
-  "which-key.nvim": { "branch": "main", "commit": "fb070344402cfc662299d9914f5546d840a22126" }
+  "which-key.nvim": { "branch": "main", "commit": "fb070344402cfc662299d9914f5546d840a22126" },
+  "zellij.vim": { "branch": "main", "commit": "09c21b8ae429bbab575b003e9c750019f2c6d1f7" }
 }
